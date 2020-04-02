@@ -22,7 +22,7 @@ module load python/3.7.2
 ## *** Kmer counting script directory
 ## *** THIS SHOULD NOT BE CHANGED
 ## **********
-KMER_DIR=/home/wil9cq/scratch1/coronavirus_pipeline/code/bin
+KMER_DIR=/home/wil9cq/scratch1/COVID19_TBED/analysisPipeline/code/bin
 
 ## Input file and output directory
 ## Read them as arguments from the master script

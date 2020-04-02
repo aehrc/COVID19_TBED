@@ -57,7 +57,7 @@ cat CB*.raxml.bootstraps > allbootstraps
 #finds bootstrap support of the best tree
 raxml-ng --support --tree $bestTree --bs-trees allbootstraps --prefix CS --threads 1 --redo
 #copies out tree with support values
-cd ../../
+cd ../../../
 cp ${OUTDIR}/CS.raxml.support $originalAlignmentFilementFile.nex
 
 #because trees only bifurcate there is a minimum branch length between identical strains

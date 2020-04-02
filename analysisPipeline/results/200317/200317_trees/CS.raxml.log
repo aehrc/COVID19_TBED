@@ -1,0 +1,34 @@
+
+RAxML-NG v. 0.9.0 released on 20.05.2019 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+RAxML-NG was called at 02-Apr-2020 11:05:08 as follows:
+
+raxml-ng --support --tree CT17.raxml.bestTree --bs-trees allbootstraps --prefix CS --threads 1 --redo
+
+Analysis options:
+  run mode: Compute bipartition support (Felsenstein Bootstrap)
+  start tree(s): user
+  random seed: 1585785908
+  SIMD kernels: AVX2
+  parallelization: NONE/sequential
+
+WARNING: Running in REDO mode: existing checkpoints are ignored, and all result files will be overwritten!
+
+Reading reference tree from file: CT17.raxml.bestTree
+Reference tree size: 301
+
+Reading bootstrap trees from file: allbootstraps
+Loaded 1000 trees with 301 taxa.
+
+Best ML tree with Felsenstein bootstrap (FBP) support values saved to: /scratch1/wil9cq/COVID19_TBED/analysisPipeline/results/200317/200317_trees/CS.raxml.support
+
+Execution log saved to: /scratch1/wil9cq/COVID19_TBED/analysisPipeline/results/200317/200317_trees/CS.raxml.log
+
+Analysis started: 02-Apr-2020 11:05:08 / finished: 02-Apr-2020 11:05:09
+
+Elapsed time: 0.706 seconds
+

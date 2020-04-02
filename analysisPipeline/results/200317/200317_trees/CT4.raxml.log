@@ -1,0 +1,165 @@
+
+RAxML-NG v. 0.9.0 released on 20.05.2019 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+RAxML-NG was called at 02-Apr-2020 09:59:14 as follows:
+
+/apps/raxml-ng/0.9.0/bin/raxml-ng --search --msa results/200317/alignments/200317.trimmed.noDup.muscleAlignment.raxml.rba --tree pars{100} --prefix results/200317/200317_trees/CT4 --seed 10669 --threads 4
+
+Analysis options:
+  run mode: ML tree search
+  start tree(s): parsimony (100)
+  random seed: 10669
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  fast spr radius: AUTO
+  spr subtree cutoff: 1.000000
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: PTHREADS (4 threads), thread pinning: OFF
+
+[00:00:00] Loading binary alignment from file: results/200317/alignments/200317.trimmed.noDup.muscleAlignment.raxml.rba
+[00:00:00] Alignment comprises 301 taxa, 1 partitions and 732 patterns
+
+Partition 0: noname
+Model: GTR+FO+I+G4m
+Alignment sites / patterns: 29655 / 732
+Gaps: 0.10 %
+Invariant sites: 98.18 %
+
+
+[00:00:00] Generating 100 parsimony starting tree(s) with 301 taxa
+[00:00:20] Data distribution: max. partitions/sites/weight per thread: 1 / 183 / 2928
+
+Starting ML tree search with 100 distinct starting trees
+
+[00:01:02] ML tree search #1, logLikelihood: -46038.572670
+[00:01:36] ML tree search #2, logLikelihood: -46047.139188
+[00:02:05] ML tree search #3, logLikelihood: -46038.366245
+[00:02:33] ML tree search #4, logLikelihood: -46032.461086
+[00:03:19] ML tree search #5, logLikelihood: -46033.288433
+[00:04:08] ML tree search #6, logLikelihood: -46033.643515
+[00:04:53] ML tree search #7, logLikelihood: -46032.491671
+[00:05:57] ML tree search #8, logLikelihood: -46032.799831
+[00:06:36] ML tree search #9, logLikelihood: -46043.542202
+[00:07:32] ML tree search #10, logLikelihood: -46038.370619
+[00:08:01] ML tree search #11, logLikelihood: -46032.396966
+[00:08:40] ML tree search #12, logLikelihood: -46045.330112
+[00:09:14] ML tree search #13, logLikelihood: -46039.894437
+[00:09:40] ML tree search #14, logLikelihood: -46038.815231
+[00:10:13] ML tree search #15, logLikelihood: -46033.079742
+[00:10:51] ML tree search #16, logLikelihood: -46038.315117
+[00:11:29] ML tree search #17, logLikelihood: -46045.322656
+[00:11:58] ML tree search #18, logLikelihood: -46039.499173
+[00:12:43] ML tree search #19, logLikelihood: -46038.372997
+[00:13:32] ML tree search #20, logLikelihood: -46032.475182
+[00:14:16] ML tree search #21, logLikelihood: -46033.283031
+[00:14:58] ML tree search #22, logLikelihood: -46032.529872
+[00:15:25] ML tree search #23, logLikelihood: -46038.577202
+[00:15:55] ML tree search #24, logLikelihood: -46039.966794
+[00:16:37] ML tree search #25, logLikelihood: -46039.010456
+[00:17:13] ML tree search #26, logLikelihood: -46032.634949
+[00:17:40] ML tree search #27, logLikelihood: -46032.537746
+[00:18:22] ML tree search #28, logLikelihood: -46032.982627
+[00:19:01] ML tree search #29, logLikelihood: -46045.370607
+[00:20:06] ML tree search #30, logLikelihood: -46032.411892
+[00:21:08] ML tree search #31, logLikelihood: -46032.335316
+[00:21:38] ML tree search #32, logLikelihood: -46032.473328
+[00:22:12] ML tree search #33, logLikelihood: -46039.422053
+[00:22:54] ML tree search #34, logLikelihood: -46039.024289
+[00:23:57] ML tree search #35, logLikelihood: -46038.399864
+[00:24:22] ML tree search #36, logLikelihood: -46040.095317
+[00:24:47] ML tree search #37, logLikelihood: -46039.550914
+[00:25:37] ML tree search #38, logLikelihood: -46038.418933
+[00:26:28] ML tree search #39, logLikelihood: -46039.395765
+[00:27:19] ML tree search #40, logLikelihood: -46038.368536
+[00:27:49] ML tree search #41, logLikelihood: -46032.500211
+[00:28:38] ML tree search #42, logLikelihood: -46032.526319
+[00:29:13] ML tree search #43, logLikelihood: -46041.310981
+[00:29:45] ML tree search #44, logLikelihood: -46032.914781
+[00:30:18] ML tree search #45, logLikelihood: -46032.763222
+[00:30:55] ML tree search #46, logLikelihood: -46032.426980
+[00:31:30] ML tree search #47, logLikelihood: -46032.888165
+[00:32:02] ML tree search #48, logLikelihood: -46039.516987
+[00:32:36] ML tree search #49, logLikelihood: -46032.957875
+[00:33:13] ML tree search #50, logLikelihood: -46032.513717
+[00:33:49] ML tree search #51, logLikelihood: -46032.595089
+[00:34:24] ML tree search #52, logLikelihood: -46045.279720
+[00:34:51] ML tree search #53, logLikelihood: -46039.109113
+[00:35:39] ML tree search #54, logLikelihood: -46038.298056
+[00:36:42] ML tree search #55, logLikelihood: -46033.034438
+[00:37:14] ML tree search #56, logLikelihood: -46032.510404
+[00:37:40] ML tree search #57, logLikelihood: -46039.523968
+[00:38:14] ML tree search #58, logLikelihood: -46039.542688
+[00:38:58] ML tree search #59, logLikelihood: -46032.424039
+[00:39:55] ML tree search #60, logLikelihood: -46032.413912
+[00:40:22] ML tree search #61, logLikelihood: -46032.570293
+[00:40:51] ML tree search #62, logLikelihood: -46038.390762
+[00:41:40] ML tree search #63, logLikelihood: -46038.344049
+[00:42:33] ML tree search #64, logLikelihood: -46032.525073
+[00:42:57] ML tree search #65, logLikelihood: -46033.361383
+[00:43:36] ML tree search #66, logLikelihood: -46039.565508
+[00:44:09] ML tree search #67, logLikelihood: -46045.331987
+[00:44:40] ML tree search #68, logLikelihood: -46033.437157
+[00:45:24] ML tree search #69, logLikelihood: -46038.900222
+[00:45:56] ML tree search #70, logLikelihood: -46033.431614
+[00:46:26] ML tree search #71, logLikelihood: -46039.509731
+[00:46:57] ML tree search #72, logLikelihood: -46032.522964
+[00:47:32] ML tree search #73, logLikelihood: -46039.829494
+[00:48:16] ML tree search #74, logLikelihood: -46038.625916
+[00:48:55] ML tree search #75, logLikelihood: -46032.493360
+[00:49:48] ML tree search #76, logLikelihood: -46032.406428
+[00:50:15] ML tree search #77, logLikelihood: -46032.477157
+[00:50:51] ML tree search #78, logLikelihood: -46039.220237
+[00:51:36] ML tree search #79, logLikelihood: -46032.479100
+[00:52:22] ML tree search #80, logLikelihood: -46032.524192
+[00:52:57] ML tree search #81, logLikelihood: -46039.439733
+[00:53:38] ML tree search #82, logLikelihood: -46032.466953
+[00:54:08] ML tree search #83, logLikelihood: -46033.006544
+[00:54:42] ML tree search #84, logLikelihood: -46045.362124
+[00:55:40] ML tree search #85, logLikelihood: -46038.245047
+[00:56:34] ML tree search #86, logLikelihood: -46032.360634
+[00:57:11] ML tree search #87, logLikelihood: -46032.826596
+[00:57:50] ML tree search #88, logLikelihood: -46032.486246
+[00:58:33] ML tree search #89, logLikelihood: -46032.418371
+[00:59:24] ML tree search #90, logLikelihood: -46039.823861
+[01:00:00] ML tree search #91, logLikelihood: -46032.464974
+[01:00:49] ML tree search #92, logLikelihood: -46038.627392
+[01:01:20] ML tree search #93, logLikelihood: -46032.500619
+[01:02:07] ML tree search #94, logLikelihood: -46032.449426
+[01:02:40] ML tree search #95, logLikelihood: -46039.215961
+[01:03:07] ML tree search #96, logLikelihood: -46033.007893
+[01:04:15] ML tree search #97, logLikelihood: -46032.451621
+[01:04:40] ML tree search #98, logLikelihood: -46033.390292
+[01:05:16] ML tree search #99, logLikelihood: -46032.489494
+[01:05:53] ML tree search #100, logLikelihood: -46039.481773
+
+Optimized model parameters:
+
+   Partition 0: noname
+   Rate heterogeneity: GAMMA (4 cats, mean),  alpha: 0.732426 (ML),  weights&rates: (0.250000,0.081124) (0.250000,0.378436) (0.250000,0.936316) (0.250000,2.604124) 
+   P-inv (ML): 0.735453
+   Base frequencies (ML): 0.298533 0.182175 0.195661 0.323631 
+   Substitution rates (ML): 0.383792 1.206743 0.329493 0.702517 3.404542 1.000000 
+
+
+Final LogLikelihood: -46032.335316
+
+AIC score: 93282.670632 / AICc score: 93308.250938 / BIC score: 98335.778721
+Free parameters (model + branch lengths): 609
+
+Best ML tree saved to: /scratch1/wil9cq/COVID19_TBED/analysisPipeline/results/200317/200317_trees/CT4.raxml.bestTree
+All ML trees saved to: /scratch1/wil9cq/COVID19_TBED/analysisPipeline/results/200317/200317_trees/CT4.raxml.mlTrees
+Optimized model saved to: /scratch1/wil9cq/COVID19_TBED/analysisPipeline/results/200317/200317_trees/CT4.raxml.bestModel
+
+Execution log saved to: /scratch1/wil9cq/COVID19_TBED/analysisPipeline/results/200317/200317_trees/CT4.raxml.log
+
+Analysis started: 02-Apr-2020 09:59:14 / finished: 02-Apr-2020 11:05:08
+
+Elapsed time: 3953.862 seconds
+
